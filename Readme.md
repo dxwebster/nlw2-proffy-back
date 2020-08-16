@@ -6,6 +6,11 @@
 
 ### [Back-end](#back-end)
 
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Executar esse projeto no seu computador](#Executar-esse-projeto-no-seu-computador)
+
+- [Como criar esse projeto do zero](#Como-criar-esse-projeto-do-zero)
 - [Instalação e Configuração das Bibliotecas Back-end](#-instalação-e-configuração-das-bibliotecas-back-end)
   - [Configuração de Scripts de Desenvolvimento](#configuração-de-scripts-de-desenvolvimento)
   - [Configurações do Knex](#configurações-do-knex)
@@ -21,8 +26,33 @@
 - [Rotas](#rotas)
 - [Licença](#-licença)
 
-# Back-end
+## 💡 Sobre o Projeto
 
+Criação do Proffy, uma plataforma para conexão professores e alunos. Acesse o Front-end e Mobile do projeto:  <br><br>
+💻 **Acesse o Front-end [aqui](https://github.com/dxwebster/NLW2-Proffy/tree/master/web)** | 
+📱 **Acesse o Mobile [aqui](https://github.com/dxwebster/NLW2-Proffy/tree/master/mobile)** |
+
+## 🚀 Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- NodeJS
+- Express
+- TS-Node-Dev
+- Knex
+- SQLite
+- CORS
+- TypeScript
+
+## 📥 Executar esse projeto no seu computador
+
+- Clonar Repositório: `git clone https://github.com/dxwebster/NLW02-Proffy-API.git`
+- Ir para a pasta: `cd NLW02-Proffy-API`
+- Instalar dependências: `yarn install`
+- Rodar Aplicação: `yarn start`
+
+
+# Como criar esse projeto do zero
 Vamos iniciar a construção da API back-end da nossa aplicação, para isso o Node e o Yarn já devem estar instalados.
 Criar uma pasta 'server' para escrever todo o back-end.
 
