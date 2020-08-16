@@ -21,7 +21,9 @@
   - [Tabela de Agendamento das Aulas](#tabela-de-agendamento-das-aulas)
   - [Tabela de Conexões](#tabela-de-conexões)
 - [Função para lidar com os Horários](#função-para-lidar-com-os-Horários)
-- [Controllers](#controllers) - [Controller de Aulas](#controller-de-aulas) - [Controller de Conexões](#controller-de-conexões)
+- [Controllers](#controllers)
+  - [Controller de Aulas](#controller-de-aulas)
+  - [Controller de Conexões](#controller-de-conexões)
 - [Rotas](#rotas)
 - [Licença](#-licença)
 
