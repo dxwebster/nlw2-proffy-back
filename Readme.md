@@ -9,7 +9,6 @@
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Executar esse projeto no seu computador](#Executar-esse-projeto-no-seu-computador)
-
 - [Como criar esse projeto do zero](#Como-criar-esse-projeto-do-zero)
 - [Instalação e Configuração das Bibliotecas Back-end](#-instalação-e-configuração-das-bibliotecas-back-end)
   - [Configuração de Scripts de Desenvolvimento](#configuração-de-scripts-de-desenvolvimento)
