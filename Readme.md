@@ -2,8 +2,6 @@
   <img src="readme/Home.png"/>
 </p>
 
-# 📑 Índice
-
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Executar esse projeto no seu computador](#Executar-esse-projeto-no-seu-computador)
