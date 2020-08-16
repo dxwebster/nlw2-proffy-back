@@ -4,8 +4,6 @@
 
 # 📑 Índice
 
-### [Back-end](#back-end)
-
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Executar esse projeto no seu computador](#Executar-esse-projeto-no-seu-computador)
