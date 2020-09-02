@@ -5,7 +5,7 @@
 
 ## 💡 Sobre o Projeto
 
-Proffy, uma plataforma para conexão professores e alunos.<br>
+Proffy, uma plataforma para conexão professores e alunos.<br><br>
 💻 **Acesse o Front-end [aqui](https://github.com/dxwebster/NLW2-Proffy/tree/master/web)** | 
 📱 **Acesse o Mobile [aqui](https://github.com/dxwebster/NLW2-Proffy/tree/master/mobile)** |
 
