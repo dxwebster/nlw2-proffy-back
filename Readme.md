@@ -28,7 +28,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Rodar Aplicação: `yarn start`
 
 ## 🛠 Como criar esse projeto do zero
-Acesse a Wiki: https://github.com/dxwebster/NLW2-Proffy-API/wiki
+↳ Acesse a Wiki: https://github.com/dxwebster/NLW2-Proffy-API/wiki
 
 
 ## 📕 Licença
