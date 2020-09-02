@@ -2,11 +2,13 @@
   <img src="readme/Home.png"/>
 </p>
 
+
 ## 💡 Sobre o Projeto
 
-Criação do Proffy, uma plataforma para conexão professores e alunos.<br>
+Proffy, uma plataforma para conexão professores e alunos.<br>
 💻 **Acesse o Front-end [aqui](https://github.com/dxwebster/NLW2-Proffy/tree/master/web)** | 
 📱 **Acesse o Mobile [aqui](https://github.com/dxwebster/NLW2-Proffy/tree/master/mobile)** |
+
 
 ## 🚀 Tecnologias utilizadas
 
