@@ -12,14 +12,10 @@ Proffy, uma plataforma para conexão professores e alunos.<br><br>
 
 ## 🚀 Tecnologias utilizadas
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
-
 - NodeJS
 - Express
-- TS-Node-Dev
 - Knex
 - SQLite
-- CORS
 - TypeScript
 
 ## 📥 Executar esse projeto no seu computador
@@ -31,7 +27,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 🛠 Como criar esse projeto do zero
 ↳ Acesse a Wiki: https://github.com/dxwebster/NLW2-Proffy-API/wiki
-
 
 ## 📕 Licença
 
