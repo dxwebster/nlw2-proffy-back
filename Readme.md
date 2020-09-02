@@ -3,13 +3,13 @@
 </p>
 
 <div align="center">
-## 💡 Sobre o Projeto
+  <h2 align="center"> 💡 Sobre o Projeto </h2>
 
-Proffy, uma plataforma para conexão professores e alunos.<br><br>
-  
-💻 **Acesse o Front-end [aqui](https://github.com/dxwebster/NLW2-Proffy-Frontend)** | 
-📱 **Acesse o Mobile [aqui](https://github.com/dxwebster/NLW2-Proffy-Mobile)** |
-  
+  Proffy, uma plataforma para conexão professores e alunos.<br><br>
+
+  💻 **Acesse o Front-end [aqui](https://github.com/dxwebster/NLW2-Proffy-Frontend)** | 
+  📱 **Acesse o Mobile [aqui](https://github.com/dxwebster/NLW2-Proffy-Mobile)** |
+
 </div>
 
 
