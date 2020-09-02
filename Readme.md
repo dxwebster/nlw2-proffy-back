@@ -2,11 +2,10 @@
   <img src="readme/Home.png"/>
 </p>
 
-
+<div align="center">
 ## 💡 Sobre o Projeto
 
 Proffy, uma plataforma para conexão professores e alunos.<br><br>
-<div align="center">
   
 💻 **Acesse o Front-end [aqui](https://github.com/dxwebster/NLW2-Proffy-Frontend)** | 
 📱 **Acesse o Mobile [aqui](https://github.com/dxwebster/NLW2-Proffy-Mobile)** |
