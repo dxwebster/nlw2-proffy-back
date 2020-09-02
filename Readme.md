@@ -20,8 +20,8 @@ Proffy, uma plataforma para conexão professores e alunos.<br><br>
 
 ## 📥 Executar esse projeto no seu computador
 
-- Clonar Repositório: `git clone https://github.com/dxwebster/NLW02-Proffy-API.git`
-- Ir para a pasta: `cd NLW02-Proffy-API`
+- Clonar Repositório: `git clone https://github.com/dxwebster/NLW2-Proffy-API.git`
+- Ir para a pasta: `cd NLW2-Proffy-API`
 - Instalar dependências: `yarn install`
 - Rodar Aplicação: `yarn start`
 
