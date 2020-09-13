@@ -33,13 +33,13 @@ export default class ConnectionsController {
     // Agora vamos para a query de busca na tabela 'classes'.
     // Com umas funções do knex conseguimos fazer algumas comparações para buscar aquilo que foi filtrado.
     const classes = await db("classes")
-      .whereExists(function Exists() {
+      .whereExists(function() {
         this.select("class_schedule.*") // seleciona todos os campos da tabela 'class_schedule'
           .from("class_schedule")
-          .whereRaw("`class_schedule`.`class_id` = `classes`.`id`") // pesquisa todos os agendamentos que tem o class_id igual ao buscado
-          .whereRaw("`class_schedule`.`week_day` = ??", [Number(week_day)]) // pesquisa todos os agendamentos que o dia da semana for igual ao buscado
-          .whereRaw("`class_schedule`.`from` <= ??", [timeInMinutes]) // pesquisa todos os agendamentos que tem horário menor ou igual ao buscado
-          .whereRaw("`class_schedule`.`to` > ??", [timeInMinutes]); // pesquisa todos os agendamentos que que tem horário maior que o buscado
+          .whereRaw("class_schedule.class_id = classes.id") // pesquisa todos os agendamentos que tem o class_id igual ao buscado
+          .whereRaw("class_schedule.week_day = ??", [Number(week_day)]) // pesquisa todos os agendamentos que o dia da semana for igual ao buscado
+          .whereRaw("class_schedule.from <= ??", [timeInMinutes]) // pesquisa todos os agendamentos que tem horário menor ou igual ao buscado
+          .whereRaw("class_schedule.to > ??", [timeInMinutes]); // pesquisa todos os agendamentos que que tem horário maior que o buscado
       })
       .where("classes.subject", "=", subject)
       .join("users", "classes.user_id", "=", "users.id")
@@ -73,8 +73,8 @@ export default class ConnectionsController {
         name,
         avatar,
         whatsapp,
-        bio,
-      });
+        bio
+      }).returning('id');
 
       const user_id = insertedUsersIds[0];
 
@@ -82,8 +82,8 @@ export default class ConnectionsController {
       const insertedClassesIds = await trx("classes").insert({
         subject,
         cost,
-        user_id,
-      });
+        user_id
+      }).returning('id');
 
       const class_id = insertedClassesIds;
 
