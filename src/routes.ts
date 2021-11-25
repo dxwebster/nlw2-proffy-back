@@ -1,15 +1,21 @@
 import express from 'express';
-import ClassesControlller from './controllers/ClassesController';
-import ConnectionsController from './controllers/ConnectionsController';
+import StoresController from './controllers/StoresController';
+import ProductsController from './controllers/ProductsController';
 
 const routes = express.Router();
-const classesControllers = new ClassesControlller();
-const connectionsController = new ConnectionsController();
 
-routes.get('/classes', classesControllers.index);
-routes.post('/classes', classesControllers.create);
+const storesController = new StoresController();
+const productsControllers = new ProductsController();
 
-routes.get('/connections', connectionsController.index);
-routes.post('/connections', connectionsController.create);
+routes.post('/stores', storesController.postStore);
+routes.delete('/stores', storesController.deleteStore);
+routes.get('/stores/all', storesController.getStores);
+
+routes.post('/products', productsControllers.postProduct);
+routes.put('/products/:id', productsControllers.updateProduct);
+routes.delete('/products', productsControllers.deleteProduct);
+routes.get('/products/all', productsControllers.getProducts);
+
+
 
 export default routes;
